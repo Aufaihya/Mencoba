@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AufaIhyaurRizki</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- navigation menu -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          <span>Aufa</span>
+        </div>
+        <div class="links">
+          <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#" id="aboutlink">About</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#">Skills</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#">Services</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+          <div class="dropdown" id="dropdown">
+            <div class="bunga">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Skills</a>
+              <a href="#">Services</a>
+              <a href="#">Contact</a>
+              <i class="fa-solid fa-xmark cancel" onclick="cancel()" ></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section>
+      <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="700">
+          <img src="assets/main.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="900">Hey I'm <span>Aufa Ihyaur Rizki</span></h1>
+          <div class="typewriter" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1000">
+            I'm a
+            <span class="typewriter-text" >Freshman</span>
+          </div>
+          <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Menjalani hidup dengan penuh rasa ingin tahu dan semangat untuk belajar. Setiap hari adalah kesempatan baru untuk berkembang, berbagi, dan memberi makna bagi diri sendiri serta orang lain.</p>
+          <div class="social-links">
+            <a href="https://github.com/Aufaihya" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/aufaihya.urrizki.3" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://wa.me/+6285925532237" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/aufa_ihyaurrizki" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1800"><button>Thanks you</button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start-->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About me</span></div>
+        <div class="about-details">
+          <div class="left"><img src="assets/main.jpg" alt="" /></div>
+          <div class="right">
+            <div class="topic">Designing Is My Passion</div>
+            <p>Designing is an endless journey. From concepts to sketches, from ideas to reality, there’s a unique satisfaction in every step. Designing teaches me to appreciate the process, prioritize details, and create something that’s not only beautiful but also meaningful to others.</p>
+            <div class="btn">
+              <button>BOOM</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skills section start -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title">
+          <span>My Skills</span>
+        </div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflect Our Knoledge</div>
+            <p data-aos="fade-right">Embarking on a journey of learning is just the beginning; it’s the foundational step that opens the door to endless possibilities. The skills we cultivate along the way are the true testament to our growth. Each skill we acquire is not merely an ability but a reflection of our dedication, perseverance, and the knowledge we’ve absorbed. As we apply what we learn, we transform theory into practice, shaping our identity and enhancing our potential. Ultimately, these skills serve as both a mirror and a map, showcasing our progress and guiding us toward future opportunities.</p>
+            <div class="experience">
+              <div class="num">3</div>
+              <div class="exp">
+                Month Of<br />
+                Experience
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">01%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">01%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavaScript</div>
+              <div class="per">00%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Php</div>
+              <div class="per">00%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Strat -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon"><i class="fas fa-desktop"></i></div>
+            <div class="topic">Web Development</div>
+            <p>We greatly appreciate your interest, but unfortunately, this service is not yet available. We will continue to strive to expand our services.</p>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fas fa-paint-brush"></i></div>
+            <div class="topic">Grapich Design</div>
+            <p>We greatly appreciate your interest, but unfortunately, this service is not yet available. We will continue to strive to expand our services.</p>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fas fa-chart-line"></i></div>
+            <div class="topic">Digital Marketing</div>
+            <p>We greatly appreciate your interest, but unfortunately, this service is not yet available. We will continue to strive to expand our services.</p>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fas fa-tablet-alt"></i></div>
+            <div class="topic">App Engineer</div>
+            <p>We greatly appreciate your interest, but unfortunately, this service is not yet available. We will continue to strive to expand our services.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact  Sectipon Me start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">An Unforgettable Charm</div>
+          <p>There’s something truly special about you that always captures my attention. The way you speak, laugh, and view the world mesmerizes me. I hope we can spend more time together and create beautiful memories."</p>
+          <div class="btn">
+            <button>Let's Chat</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">aufaIhyaurRizki</a>&#169;2024 All RightsReserved</span>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
